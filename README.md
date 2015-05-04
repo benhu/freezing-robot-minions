@@ -4,6 +4,7 @@ Algo de minions
 Dans une ville futuristes Nuctrantes, un évènement nécessite l'optimisation des voyages. Les petits minions vont nous aider à y voir plus clair. Munis d'une technologie révolutionnaire; la ceinture de téléportation tellurique; nos minions seront à même de déterminer le meilleur chemin, le meilleur prix ou le meilleur qualité/prix.
 
 Les minions dépose des phéromones sur les routes, ce qui permet au minion suivant de le suivre. Plus il y a de minions, plus il y a des phéromones.
+
 ![Minions](http://media.giphy.com/media/mikVwhc0ntV0k/giphy.gif  "Minions")
 
 #Données
