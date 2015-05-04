@@ -6,7 +6,7 @@ Dans une ville futuristes Nuctrantes, un évènement nécessite l'optimasation d
 ![Minions](http://media.giphy.com/media/mikVwhc0ntV0k/giphy.gif  "Minions")
 
 #Données
-Bond : 5min
-vitesse Touriste : 5km/h
-temps visites : 15 à 60 min
-On entre en un noeud0 et on sort par un noeud0 (dépot de ceinture).
+- Bond : 5min
+- Vitesse Touriste : 5km/h
+- Temps visites : 15 à 60 min
+- On entre en un noeud0 et on sort par un noeud0 (dépot de ceinture).
