@@ -8,30 +8,14 @@
 using namespace std;
 
 /**
-  * Fonction d'evaluation
-  * Pour chaque individu donne une valaure
-  * @param
-  * @param
-  * @return
-  **/
-void evaluateIndividual(){
-
-} 
-
- /*
-  * Fonction de selection
-  * Selectionne les individus
-  *
-  * @param
-  * @param
-  * @return
-  *
-  */
-void selectIndividual(){
-
-}
-
+ * Méthode de commencement de la partie de chasse aux minions
+ */
 int main() {
+    
+    int nbMinion = 29; // en minion
+    int tpsBond = 5;   // en min
+    int tpsVisite = 30;// en min
+    int vMinion = 5;   // en km/h
 
     return 0;
 }
