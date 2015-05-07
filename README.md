@@ -15,5 +15,7 @@ Les minions dépose des phéromones sur les routes, ce qui permet aux minions su
 
 #Formule
 La règle de déplacement, appelée « règle aléatoire de transition proportionnelle », est écrite mathématiquement sous la forme suivante :
+
 ![Formule](http://upload.wikimedia.org/math/0/7/c/07c690df6ac123d810621855ae3e01b2.png "YOLO")
+
 où Jik est la liste des déplacements possibles pour une fourmi k lorsqu’elle se trouve sur une ville i, ηij la visibilité, qui est égale à l’inverse de la distance de deux villes i et j (1/dij) et τij (t) l’intensité de la piste à une itération donnée t. Les deux principaux paramètres contrôlant l’algorithme sont α et β, qui contrôlent l’importance relative de l’intensité et de la visibilité d’une arête.
