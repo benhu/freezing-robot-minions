@@ -12,10 +12,10 @@ using namespace std;
  */
 int main() {
     
+    //Parametrage
     int nbMinion = 29; // en minion
-    int tpsBond = 5;   // en min
+    int nbVille = 29; // en minion
     int tpsVisite = 30;// en min
-    int vMinion = 5;   // en km/h
 
     return 0;
 }

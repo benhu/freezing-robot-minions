@@ -24,8 +24,8 @@ où Jik est la liste des déplacements possibles pour une fourmi k lorsqu’elle
 
 L’algorithme général repose sur un ensemble de minions, chacune parcourant un trajet parmi ceux possibles. À chaque étape, le minion choisit son parcours entre chaque évènement selon quelque règles:
 
-    On ne visite qu’une fois chaque ville ;
-    Plus une ville est loin, moins elle sera choisie. <<Visibilité>>
+    On ne visite qu’une fois chaque evenement ;
+    Plus une evenement est loin, moins elle sera choisie. <<Visibilité>>
     Un minion choisira un chemin avec le plus de phéromone.
     (Une fois son trajet terminé, la fourmi dépose, sur l’ensemble des arêtes parcourues, plus de phéromones si le trajet est court )
     Les phéromones s’évaporent à chaque itération.
