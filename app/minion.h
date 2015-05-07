@@ -12,7 +12,14 @@ class Minion{
 		Minion();
 		~Minion();
 	private:
+		std::string nom;					// Le prenom
+		float txBanana;						// Les pheromones
+		const float tpsTeleportation = 5;	// Le temps de teleportation
+		const int vMinion = 5;				// La vitesse de marche
 
+		Node* pointDeDepart;
+
+		SET tousLesPointsQuilAvisite;
 };
 
 #endif

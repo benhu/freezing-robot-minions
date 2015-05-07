@@ -17,5 +17,8 @@ int main() {
     int nbVille = 29; // en minion
     int tpsVisite = 30;// en min
 
+    
+
+
     return 0;
 }
