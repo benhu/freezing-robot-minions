@@ -1,5 +1,8 @@
 Algo de minions
 ==
+
+![Star Minion](https://raw.githubusercontent.com/benhu/freezing-robot-minions/master/assets/star_minion.jpg "Star Minion")
+
 # Histoire
 Dans une ville futuristes Nuctrantes, un évènement nécessite l'optimisation des voyages. Les petits minions vont nous aider à y voir plus clair. Munis d'une technologie révolutionnaire; la ceinture de téléportation tellurique; nos minions seront à même de déterminer le meilleur chemin, le meilleur prix ou le meilleur qualité/prix.
 
