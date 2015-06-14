@@ -1,11 +1,10 @@
 #ifndef MINION_H
 #define MINION_H
 
-#include "minion.cpp"
- 
 #include <iostream>
-//using namespace std; INTERDIT ma cherie SEULEMENT dans le cpp
- 
+#include <set>
+#include "node.h"
+
 class Minion{
 
 	public:
@@ -19,7 +18,7 @@ class Minion{
 
 		Node* pointDeDepart;
 
-		SET tousLesPointsQuilAvisite;
+        std::set<int> tousLesPointsQuilAvisite;
 };
 
 #endif

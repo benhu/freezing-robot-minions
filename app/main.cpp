@@ -16,6 +16,8 @@ int main() {
     int nbMinion = 29; // en minion
     int nbVille = 29; // en minion
     int tpsVisite = 30;// en min
+    double evapPheromone = 10;
+
 
     
 
