@@ -1,6 +1,7 @@
 //It is our future main class
 
 #include <iostream>
+#include "graph.h"
 
 /**
 * Classe qui représente la classe principale .
@@ -13,13 +14,13 @@ using namespace std;
 int main() {
     
     //Parametrage
-    int nbMinion = 29; // en minion
-    int nbVille = 29; // en minion
-    int tpsVisite = 30;// en min
-    double evapPheromone = 10;
+    //int nbMinion = 29; // en minion
+    //int nbVille = 29; // en minion
+    //int tpsVisite = 30;// en min
+    //double evapPheromone = 10;
 
 
-    
+    Graph* graph = new Graph();    
 
 
     return 0;
