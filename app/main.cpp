@@ -36,7 +36,10 @@ int main() {
         lesMinions[nbMimi] = mimi;
         
         for(int lieu = 0; lieu < nbVille; ++lieu) {
-            
+            do {
+                int pt = getRandValue(0, 29);
+            }while(!mimi->addPts(pt));
+
         }
     }
 
