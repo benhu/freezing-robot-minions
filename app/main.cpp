@@ -20,7 +20,7 @@ int main() {
     
     //Parametrage
     int nbMinion = 29; // en minion
-    //int nbVille = 29; // en minion
+    int nbVille = 29; // en minion
     //int tpsVisite = 30;// en min
     //double evapPheromone = 10;
     int nbIteration = 0;
@@ -34,6 +34,10 @@ int main() {
         int firstPt = getRandValue(0, 29);
         Minion* mimi = new Minion("Serge", firstPt);
         lesMinions[nbMimi] = mimi;
+        
+        for(int lieu = 0; lieu < nbVille; ++lieu) {
+            
+        }
     }
 
     /*tant que la condition d'arrêt n'est pas vérifiée :
