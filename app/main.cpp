@@ -20,10 +20,10 @@ int main() {
     
     //Parametrage
     const int nbMinion = 29; // en minion
-    int nbVille = 29; // en minion
+    const int nbVille = 29; // en minion
     //int tpsVisite = 30;// en min
     //double evapPheromone = 10;
-    int nbIteration = 0;
+    const int nbIteration = 0;
 
 
     Graph* graph = new Graph();    
