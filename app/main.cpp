@@ -25,6 +25,7 @@ int main() {
     //double evapPheromone = 10;
     const int nbIteration = 0;
 
+    cout << "BANANA !" << endl;
 
     Graph* graph = new Graph();    
 
