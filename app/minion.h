@@ -8,7 +8,7 @@
 class Minion{
 
 	public:
-		Minion();
+		Minion(std::string nom, float txBanana);
 		~Minion();
 	private:
 		std::string nom;					// Le prenom
