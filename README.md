@@ -57,6 +57,8 @@ La condition d'arrêt peut être :
 - Un nombre défini d'itération (sufisament grand pour que l'algorithme converge).
 - Ou alors un algorithme qui detecte une convergence ou divergence de la solution, et s'arrête automatiquement.
 
+La fonction d'évaluation pondère en minimisant la distance entre deux points et en prenant le plus grand nombre de banane possible.
+
 #Constatation
 Nos minions seront à même de déterminer le meilleur chemin, le meilleur prix ou le meilleur qualité/prix.
 Nous constatons :
