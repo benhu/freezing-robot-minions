@@ -49,9 +49,7 @@ int main() {
             Minion* mimi = lesMinions[nbMimi]; 
 
             for(int lieu = 0; lieu < nbVille; ++lieu) {
-                do {
-                    pt = getRandValue(0, 29);
-                }while(!mimi->addPts(pt));
+                mimi->visitPts();
             }
         }
         //eVAPORATION DE LA BANANE

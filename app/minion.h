@@ -11,7 +11,7 @@ class Minion{
         Minion();
 		Minion(std::string nom, float txBanana);
 		~Minion();
-        bool addPts(int pts);
+        void visitPts();
 	private:
 		std::string nom;					// Le prenom
 		float txBanana;						// Les pheromones
