@@ -19,7 +19,7 @@ int getRandValue(int min, int max) {
 int main() {
     
     //Parametrage
-    int nbMinion = 29; // en minion
+    const int nbMinion = 29; // en minion
     int nbVille = 29; // en minion
     //int tpsVisite = 30;// en min
     //double evapPheromone = 10;
@@ -28,7 +28,7 @@ int main() {
 
     Graph* graph = new Graph();    
 
-    Minion* lesMinions = new Minion[nbMinion];
+    Minion* lesMinions[nbMinion];
 
     for(int nbMimi = 0; nbMimi < nbMinion; ++nbMimi) {
         int firstPt = getRandValue(0, 29);
@@ -39,17 +39,6 @@ int main() {
             
         }
     }
-
-    /*tant que la condition d'arrêt n'est pas vérifiée :
-    /pour i allant de 1 au nombre de minions :
-        choisir un evenement de depart 
-        pour chaque evenement non visité i :
-            choisir une evenement dans la liste des evenements restants
-        déposer des bananes sur le trajet
-    biodégradation des bananes
-    finilabananaparti
-    */
-
 
 
     while(nbIteration != 100){
