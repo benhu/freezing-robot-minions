@@ -15,13 +15,13 @@ class Minion{
         void clearList();
         void showMinion();
         void addDistance(int ajout);
+		Node* pointDeDepart;
 	private:
 		std::string nom;					// Le prenom
 		float txBanana;						// Les pheromones
 		const float tpsTeleportation = 5;	// Le temps de teleportation
 		const int vMinion = 5;				// La vitesse de marche
 		int walkedDist;
-		Node* pointDeDepart;
         std::list<int> tousLesPointsNonVisite;
         int getRandValue(int min, int max);
 };

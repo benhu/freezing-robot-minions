@@ -58,6 +58,7 @@ int Minion::getRandValue(int min, int max) {
 }
 
 void Minion::clearList() {
+    this->walkedDist = 0;    
     for(int i =0; i < 29; ++i) {
         this->tousLesPointsNonVisite.push_back(i);
     }   

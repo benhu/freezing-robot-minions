@@ -51,8 +51,14 @@ int main() {
             
             Minion* mimi = lesMinions[nbMimi]; 
 
+            Node* nodeM = mimi->pointDeDepart;
+
             for(int lieu = 0; lieu < nbVille; ++lieu) {
-                mimi->visitPts();
+                int pts = mimi->visitPts();
+
+                mimi->addDistance(nodeM->child[pts]);
+
+                nodeM = graph->getNode(pts);
             }
         }
         //eVAPORATION DE LA BANANE
