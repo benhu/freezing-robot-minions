@@ -15,9 +15,9 @@ class Node{
 
         int id;
         int* banana;
+        int* child;
 	private:
         std::string name;
-        int* child;
 };
 
 #endif

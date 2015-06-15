@@ -10,26 +10,33 @@ Minion::Minion(std::string nom, Node* node, float txBanana) {
     this->pointDeDepart = node;
     this->txBanana= txBanana;
 
-    for(int i =0; i < 29; ++i) {
-        this->tousLesPointsNonVisite.push_back(i);
-    }
+    this->clearList();
 }
 
-void Minion::visitPts() {
+int Minion::visitPts() {
+   
     int size = this->tousLesPointsNonVisite.size();
+    int pos = 0; 
+    int val = 0;
 
-    int pos = this->getRandValue(0, size);
+    std::list<int>::iterator it = this->tousLesPointsNonVisite.begin();
 
-    std::list<int>::iterator it = std::next(this->tousLesPointsNonVisite.begin(), pos);
+    do {
 
-    int val = (int)(*it);
+        pos = this->getRandValue(0, size);
 
-    if(this->pointDeDepart->id == val)
-    {
-        return;
-    }
+        it = std::next(this->tousLesPointsNonVisite.begin(), pos);
+
+        val = (int)(*it);
+    } while(this->pointDeDepart->id == val && size != 1);
 
     this->tousLesPointsNonVisite.erase(it);
+
+    if(size - 1 == 0) {
+        this->clearList();
+    }
+
+    return val;
 }
 
 
@@ -48,4 +55,11 @@ void Minion::showMinion(){
 
 int Minion::getRandValue(int min, int max) {
     return rand() % max + min;
+}
+
+void Minion::clearList() {
+    this->walkedDist = 0;    
+    for(int i =0; i < 29; ++i) {
+        this->tousLesPointsNonVisite.push_back(i);
+    }   
 }
