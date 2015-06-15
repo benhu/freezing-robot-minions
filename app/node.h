@@ -11,6 +11,7 @@ class Node{
         Node(std::string name,int id, int* distance);
 		~Node();
         int id;
+        int* banana;
 	private:
         std::string name;
         int* child;

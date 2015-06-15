@@ -63,7 +63,7 @@ int main() {
 
         //eVAPORATION DE LA BANANE
         
-        nbIteration++;
+        ++nbIteration;
     }
 
 

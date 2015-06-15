@@ -8,6 +8,7 @@
 class Minion{
 
 	public:
+        Minion();
 		Minion(std::string nom, float txBanana);
 		~Minion();
         bool addPts(int pts);
