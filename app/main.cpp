@@ -33,5 +33,15 @@ int main() {
 
     }
 
+    /*tant que la condition d'arrêt n'est pas vérifiée :
+    /pour i allant de 1 au nombre de minions :
+        choisir un evenement de depart 
+        pour chaque evenement non visité i :
+            choisir une evenement dans la liste des evenements restants
+        déposer des bananes sur le trajet
+    biodégradation des bananes
+    finilabananaparti
+    */
+
     return 0;
 }

@@ -1,10 +1,16 @@
-Algo de minions
+Les minions voyagent
 ==
+
+#Equipe
+- Olivia Bruce
+- Benjamin Humeau
 
 ![Star Minion](https://raw.githubusercontent.com/benhu/freezing-robot-minions/master/assets/star_minion.jpg "Star Minion")
 
 # Histoire
-Dans une ville futuristes Nuctrantes, un évènement nécessite l'optimisation des voyages. Les petits minions vont nous aider à y voir plus clair. Munis d'une technologie révolutionnaire; la ceinture de téléportation tellurique; nos minions seront à même de déterminer le meilleur chemin, le meilleur prix ou le meilleur qualité/prix.
+Dans une ville futuristes Nuctrantes, un évènement (le voyage à Nuctrantes) nécessite l'optimisation des voyages. 
+Comme le problème du voyageur du commerce nous voulons optimiser les déplacements/ le coût. On peut identifier notre voyage comme les noeuds d'un graphe. Les petits minions vont nous aider à y voir plus clair. Munis d'une technologie révolutionnaire; la ceinture de téléportation tellurique; nous devons repérer si il est plus intéressant de marcher ou de se téléporter.
+Nos minions seront à même de déterminer le meilleur chemin, le meilleur prix ou le meilleur qualité/prix.
 
 On envoie par itération de nombreux minions sur un parcours.
 Les minions crient Banana sur les routes. Le banana étant ultrasonic, il cree des bananes qui se déposent sur les routes emprunter. Ce qui permet aux minions de l'itération suivante, de choisir un chemin si le taux de banana est important. Plus il y a de de cri de Banana sur les routes, plus les minions emprunteront le route.
@@ -40,7 +46,7 @@ L'algorithme en pseudo code :
 ```
 tant que la condition d'arrêt n'est pas vérifiée :
 	pour i allant de 1 au nombre de minions :
-		choisir un evenement 
+		choisir un evenement de depart 
 		pour chaque evenement non visité i :
 			choisir une evenement dans la liste des evenements restants
 		déposer des bananes sur le trajet
@@ -51,6 +57,12 @@ La condition d'arrêt peut être :
 - Un nombre défini d'itération (sufisament grand pour que l'algorithme converge).
 - Ou alors un algorithme qui detecte une convergence ou divergence de la solution, et s'arrête automatiquement.
 
+#Constatation
+Nos minions seront à même de déterminer le meilleur chemin, le meilleur prix ou le meilleur qualité/prix.
+Nous constatons :
+- que le plus rapide chemin mais le plus coûteux est l'utilisation de la ceinture de téléportation à chaque déplacement.
+- le meilleur prix c'est de marcher tout le temps mais c'est plus long 
+-meilleur qualité/prix
 
 #Test
 
