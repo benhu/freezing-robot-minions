@@ -68,7 +68,7 @@ Graph::Graph() {
     this->child = new Node[29];
 
     for(int i=0; i < 29; ++i) {
-        Node* newNode = new Node(lblArr[i], distArr[i]);
+        Node* newNode = new Node(lblArr[i], i, distArr[i]);
         this->child[i] = *newNode;
     }
 }
