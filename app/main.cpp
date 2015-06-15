@@ -37,22 +37,23 @@ int main() {
         lesMinions[nbMimi] = mimi;
     }
 
+    int pt = 0;
 
     while(nbIteration != 100){
+        for(int nbMini = 0; nbMini < nbMinion; ++nbMini) {
+            
+            Minion* mini = lesMinions[nbMimi]; 
 
-        for(int lieu = 0; lieu < nbVille; ++lieu) {
-            do {
-                int pt = getRandValue(0, 29);
-            }while(!mimi->addPts(pt));
-
+            for(int lieu = 0; lieu < nbVille; ++lieu) {
+                do {
+                    pt = getRandValue(0, 29);
+                }while(!mimi->addPts(pt));
+            }
         }
-
         //eVAPORATION DE LA BANANE
         evapoBanane();
         ++nbIteration;
     }
-
-
 
     return 0;
 }
