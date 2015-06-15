@@ -20,7 +20,7 @@ class Minion{
 
 		Node* pointDeDepart;
 
-        std::set<int> tousLesPointsQuilAvisite;
+        std::set<int> tousLesPointsNonVisite;
 };
 
 #endif
