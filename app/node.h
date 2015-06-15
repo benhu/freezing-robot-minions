@@ -8,8 +8,9 @@ class Node{
 
 	public:
         Node();
-        Node(std::string name, int* distance);
+        Node(std::string name,int id, int* distance);
 		~Node();
+        int id;
 	private:
         std::string name;
         int* child;

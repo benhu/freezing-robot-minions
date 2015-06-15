@@ -11,7 +11,11 @@ bool Minion::addPts(int pts) {
     std::set<int>::iterator it;
 
     it=this->tousLesPointsQuilAvisite.find(pts);
-    
+   
+    if(this->tousLesPointsQuilAvisite.size() <= 29 && pts == this->pointDeDepart->id) {
+        return false;
+    }
+
     if(it == this->tousLesPointsQuilAvisite.end()) {
         return false;
     }
