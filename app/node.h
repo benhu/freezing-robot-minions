@@ -10,10 +10,9 @@ class Node{
 		Node();
         Node(int);
 		~Node();
-        void addChild(int,int);
-        Node* getChild(int);
+        void addChild(int,Node*);
 	private:
-	    int distance;
+	    int name;
         std::map<int,Node*> child;
 };
 
