@@ -26,9 +26,13 @@ class Minion{
 
 		Node* pointDeDepart;
 
+<<<<<<< HEAD
         std::set<int> tousLesPointsQuilAvisite;
 
 
+=======
+        std::set<int> tousLesPointsNonVisite;
+>>>>>>> 6b5a11ef6a6271aff3ff49cbb4f1f6b9bca62b9b
 };
 
 #endif
