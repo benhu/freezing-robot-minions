@@ -10,9 +10,8 @@ class Graph{
 	public:
 		Graph();
 		~Graph();
-        Node* getRoot();
 	private:
-		Node* firstNode;
+		Node* child;
 };
 
 #endif
