@@ -27,7 +27,7 @@ int main() {
     const int nbVille = 29; // en minion
     //int tpsVisite = 30;// en min
     //double evapPheromone = 10;
-    const int nbIteration = 0;
+    int nbIteration = 0;
 
     cout << "BANANA !" << endl;
 
@@ -44,9 +44,9 @@ int main() {
     int pt = 0;
 
     while(nbIteration != 100){
-        for(int nbMini = 0; nbMini < nbMinion; ++nbMini) {
+        for(int nbMimi = 0; nbMimi < nbMinion; ++nbMimi) {
             
-            Minion* mini = lesMinions[nbMimi]; 
+            Minion* mimi = lesMinions[nbMimi]; 
 
             for(int lieu = 0; lieu < nbVille; ++lieu) {
                 do {
