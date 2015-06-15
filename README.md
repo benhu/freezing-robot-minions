@@ -17,7 +17,7 @@ Les minions crient Banana sur les routes. Le banana étant ultrasonic, il cree d
 - Temps visites : 15 à 60 min
 - On entre en un noeud0 et on sort par un noeud0 (dépot de ceinture).
 - On ne visite qu’une fois chaque evenement ;
-- Plus une ville est loin, moins elle sera choisie. <<Visibilité>>
+- Plus une ville est loin, moins elle sera choisie. (Visibilité)
 - Un minion choisira un chemin avec le plus de phéromone.
 - (Une fois son trajet terminé, la fourmi dépose, sur l’ensemble des arêtes parcourues, plus de phéromones si le trajet est court )
 - Les phéromones s’évaporent à chaque itération.
@@ -42,8 +42,18 @@ tant que la condition d'arrêt n'est pas vérifiée :
 	pour i allant de 1 au nombre de minions :
 		choisir un evenement 
 		pour chaque evenement non visité i :
-			choisir une evenement dans la liste des evenements restantes
+			choisir une evenement dans la liste des evenements restants
 		déposer des bananes sur le trajet
 	biodégradation des bananes
 finilabananaparti
 ```
+La condition d'arrêt peut être :
+- Un nombre défini d'itération (sufisament grand pour que l'algorithme converge).
+- Ou alors un algorithme qui detecte une convergence ou divergence de la solution, et s'arrête automatiquement.
+
+
+#Test
+
+#Conclusion
+
+C'est la conclusion.
