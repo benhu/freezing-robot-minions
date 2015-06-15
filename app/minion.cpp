@@ -16,3 +16,17 @@ Minion::Minion(std::string nom, float txBanana) {
 
 /*void Minion::VisitPts() {
 }*/
+
+
+/**
+ * Ajoute de la distance parcouru au minion
+ */ 
+void Minion::addDistance(int ajout){
+    this->walkedDist = ajout;    
+}
+
+
+void Minion::showMinion(){
+    cout<< "I'm a Minion named " << this->nom << endl;
+    cout<< "Distance Parcouru" << this->walkedDist << endl;
+}
