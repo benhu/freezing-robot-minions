@@ -48,8 +48,8 @@ tant que la condition d'arrêt n'est pas vérifiée :
 finilabananaparti
 ```
 La condition d'arrêt peut être :
--Un nombre défini d'itération (sufisament grand pour que l'algorithme converge).
--Ou alors un algorithme qui detecte une convergence ou divergence de la solution, et s'arrête automatiquement.
+- Un nombre défini d'itération (sufisament grand pour que l'algorithme converge).
+- Ou alors un algorithme qui detecte une convergence ou divergence de la solution, et s'arrête automatiquement.
 
 
 #Test
