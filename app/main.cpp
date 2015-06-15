@@ -13,6 +13,10 @@ int getRandValue(int min, int max) {
     return (rand()/(int)RAND_MAX)*(max-min)+min;
 }
 
+void evapoBanane(){
+    cout << "EvapoBanane"<<endl;
+}
+
 /**
  * Méthode de commencement de la partie de chasse aux minions
  */
