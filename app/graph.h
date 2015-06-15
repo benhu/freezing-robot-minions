@@ -11,6 +11,9 @@ class Graph{
 		Graph();
 		~Graph();
         Node* getNode(int id);
+
+        void evapoBanane(int tx);
+
 	private:
 		Node* child;
 };

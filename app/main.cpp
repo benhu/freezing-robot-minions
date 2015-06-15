@@ -13,8 +13,10 @@ int getRandValue(int min, int max) {
     return rand()%max+min;
 }
 
-void evapoBanane(){
+void evapoBanane(Graph* graph){
     cout << "EvapoBanane"<<endl;
+    graph->evapoBanane(1);
+
 }
 
 /**
@@ -55,8 +57,8 @@ int main() {
                 mimi->visitPts();
             }
         }
-        //eVAPORATION DE LA BANANE
-        evapoBanane();
+        //Evaporation de la banane
+        evapoBanane(graph);
         ++nbIteration;
     }
 

@@ -76,3 +76,10 @@ Graph::Graph() {
 Node* Graph::getNode(int id) {
     return &this->child[id];
 }
+
+void Graph::evapoBanane(int tx){
+
+    for(int i=0; i < 29; ++i) {
+        this->child[i].reduceBanana(tx);
+    }	
+}

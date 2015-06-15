@@ -10,6 +10,9 @@ class Node{
         Node();
         Node(std::string name,int id, int* distance);
 		~Node();
+
+		void reduceBanana(int tx);
+
         int id;
         int* banana;
 	private:
