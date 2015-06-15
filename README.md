@@ -79,3 +79,7 @@ Nous constatons :
 #Test
 
 A compléter.
+
+#Conclusion 
+
+On a un peu perdu du temps sur la réalisation de l'algorithme, ce qui fait que l'on.

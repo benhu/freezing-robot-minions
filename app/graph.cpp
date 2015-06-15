@@ -72,3 +72,7 @@ Graph::Graph() {
         this->child[i] = *newNode;
     }
 }
+
+Node* Graph::getNode(int id) {
+    return &this->child[id];
+}
