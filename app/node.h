@@ -7,13 +7,12 @@
 class Node{
 
 	public:
-		Node();
-        Node(int);
+        Node();
+        Node(std::string name, int* distance);
 		~Node();
-        void addChild(int,Node*);
 	private:
-	    int name;
-        std::map<int,Node*> child;
+        std::string name;
+        int* child;
 };
 
 #endif
