@@ -13,7 +13,7 @@ all:$(EXEC)
 	#$? L’ensemble des fichiers de dependance
 
 Main:$(OBJ)
-	$(CXX) -std=c++0x -o fourmis $^
+	$(CXX) -std=c++0x -o minions $^
 
 %.o: %.cpp
 	@$(CXX) -std=c++0x -o $@ -c $< $(CFLAGS)

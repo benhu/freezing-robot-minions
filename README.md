@@ -7,6 +7,12 @@ Les minions voyagent
 
 ![Star Minion](https://raw.githubusercontent.com/benhu/freezing-robot-minions/master/assets/star_minion.jpg "Star Minion")
 
+#Executable
+```
+	make
+	minions
+```
+
 # Histoire
 Dans une ville futuristes Nuctrantes, un évènement (le voyage à Nuctrantes) nécessite l'optimisation des voyages. 
 Comme le problème du voyageur du commerce nous voulons optimiser les déplacements/ le coût. On peut identifier notre voyage comme les noeuds d'un graphe. Les petits minions vont nous aider à y voir plus clair. Munis d'une technologie révolutionnaire; la ceinture de téléportation tellurique; nous devons repérer si il est plus intéressant de marcher ou de se téléporter.
