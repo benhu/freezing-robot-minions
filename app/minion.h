@@ -9,7 +9,7 @@ class Minion{
 
 	public:
         Minion();
-		Minion(std::string nom, float txBanana);
+		Minion(std::string nom, Node* node, float txBanana);
 		~Minion();
         void visitPts();
         void showMinion();

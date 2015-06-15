@@ -10,6 +10,7 @@ class Graph{
 	public:
 		Graph();
 		~Graph();
+        Node* getNode(int id);
 	private:
 		Node* child;
 };

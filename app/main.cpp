@@ -29,6 +29,7 @@ int main() {
     const int nbVille = 29; // en minion
     //int tpsVisite = 30;// en min
     //double evapPheromone = 10;
+    float txBanana = 12;
     int nbIteration = 0;
 
     cout << "BANANA !" << endl;
@@ -39,7 +40,7 @@ int main() {
 
     for(int nbMimi = 0; nbMimi < nbMinion; ++nbMimi) {
         int firstPt = getRandValue(0, 29);
-        Minion* mimi = new Minion("Serge", firstPt);
+        Minion* mimi = new Minion("Serge", graph->getNode(firstPt), txBanana);
         lesMinions[nbMimi] = mimi;
     }
 

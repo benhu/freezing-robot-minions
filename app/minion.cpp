@@ -5,8 +5,9 @@ using namespace std;
 Minion::Minion() {
 }
 
-Minion::Minion(std::string nom, float txBanana) {
+Minion::Minion(std::string nom, Node* node, float txBanana) {
     this->nom = nom;
+    this->pointDeDepart = node;
     this->txBanana= txBanana;
 
     for(int i =0; i < 29; ++i) {
@@ -29,8 +30,6 @@ void Minion::visitPts() {
     }
 
     this->tousLesPointsNonVisite.erase(it);
-
-    cout << "Val : " << *it << "Pos : " << pos << endl;
 }
 
 
