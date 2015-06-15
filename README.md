@@ -82,4 +82,6 @@ A compléter.
 
 #Conclusion 
 
-On a un peu perdu du temps sur la réalisation de l'algorithme, ce qui fait que l'on.
+On a un peu perdu du temps sur la réalisation de l'algorithme, ce qui fait que l'on a pas tout fini.
+Il manque notamment la sortie des villes dans l'ordre.
+Cependant avec un peu plus de temps nous aurions fini l'lgorithme car nous comprenons le principe.
