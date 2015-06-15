@@ -34,27 +34,20 @@ int main() {
         int firstPt = getRandValue(0, 29);
         Minion* mimi = new Minion("Serge", firstPt);
         lesMinions[nbMimi] = mimi;
-        
+    }
+
+
+    while(nbIteration != 100){
+
         for(int lieu = 0; lieu < nbVille; ++lieu) {
             do {
                 int pt = getRandValue(0, 29);
             }while(!mimi->addPts(pt));
 
         }
-    }
-
-
-    while(nbIteration != 100){
-
-        for(int nbMimi = 0; nbMimi < nbMinion; ++nbMimi){
-            /*pour chaque evenement non visité i :
-                choisir une evenement dans la liste des evenements restants
-            déposer des bananes sur le trajet*/
-
-        }
 
         //eVAPORATION DE LA BANANE
-        
+        evapoBanane();
         ++nbIteration;
     }
 
