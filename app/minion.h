@@ -11,7 +11,8 @@ class Minion{
         Minion();
 		Minion(std::string nom, Node* node, float txBanana);
 		~Minion();
-        void visitPts();
+        int visitPts();
+        void clearList();
         void showMinion();
         void addDistance(int ajout);
 	private:
