@@ -14,8 +14,8 @@ Minion::Minion(std::string nom, float txBanana) {
     }
 }
 
-/*void Minion::VisitPts() {
-}*/
+void Minion::visitPts() {
+}
 
 
 /**
