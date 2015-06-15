@@ -10,7 +10,7 @@
 using namespace std;
 
 int getRandValue(int min, int max) {
-    return (rand()/(int)RAND_MAX)*(max-min)+min;
+    return rand()%max+min;
 }
 
 void evapoBanane(){
@@ -21,7 +21,9 @@ void evapoBanane(){
  * Méthode de commencement de la partie de chasse aux minions
  */
 int main() {
-    
+
+    srand(time(NULL));
+
     //Parametrage
     const int nbMinion = 29; // en minion
     const int nbVille = 29; // en minion

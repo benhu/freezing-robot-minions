@@ -2,7 +2,7 @@
 #define MINION_H
 
 #include <iostream>
-#include <set>
+#include <list>
 #include "node.h"
 
 class Minion{
@@ -19,12 +19,10 @@ class Minion{
 		float txBanana;						// Les pheromones
 		const float tpsTeleportation = 5;	// Le temps de teleportation
 		const int vMinion = 5;				// La vitesse de marche
-
 		int walkedDist;
-
 		Node* pointDeDepart;
-
-        std::set<int> tousLesPointsNonVisite;
+        std::list<int> tousLesPointsNonVisite;
+        int getRandValue(int min, int max);
 };
 
 #endif
