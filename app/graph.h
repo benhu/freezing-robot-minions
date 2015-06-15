@@ -13,8 +13,6 @@ class Graph{
         Node* getRoot();
 	private:
 		Node* firstNode;
-        int** distances;
-        std::string* label;
 };
 
 #endif
