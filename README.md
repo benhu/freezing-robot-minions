@@ -1,13 +1,13 @@
 Les minions voyagent
 ==
 
-#Equipe
+# Equipe
 - Olivia Bruce
 - Benjamin Humeau
 
 ![Star Minion](https://raw.githubusercontent.com/benhu/freezing-robot-minions/master/assets/star_minion.jpg "Star Minion")
 
-#Executable
+# Executable
 ```
 	make
 	minions
@@ -25,7 +25,7 @@ Les bananes ont rééllement un pouvoir attractif sur les minions et les rends t
 
 ![Minions](http://media.giphy.com/media/mikVwhc0ntV0k/giphy.gif  "Minions")
 
-#Règles
+# Règles
 - Bond : 5min
 - Vitesse Touriste : 5km/h
 - Temps visites : 15 à 60 min
@@ -38,7 +38,7 @@ Les bananes ont rééllement un pouvoir attractif sur les minions et les rends t
 
 
 
-#Formule
+# Formule
 La règle de déplacement, appelée « règle aléatoire de transition proportionnelle », est écrite mathématiquement sous la forme suivante :
 
 ![Formule](http://upload.wikimedia.org/math/0/7/c/07c690df6ac123d810621855ae3e01b2.png "YOLO")
@@ -76,11 +76,11 @@ Nous constatons :
 - que le plus rapide chemin mais le plus coûteux est l'utilisation de la ceinture de téléportation à chaque déplacement.
 - le meilleur prix c'est de marcher tout le temps mais c'est plus long. 
 
-#Test
+# Test
 
 A compléter.
 
-#Conclusion 
+# Conclusion 
 
 On a un peu perdu du temps sur la réalisation de l'algorithme, ce qui fait que l'on a pas tout fini.
 Il manque notamment la sortie des villes dans l'ordre.
